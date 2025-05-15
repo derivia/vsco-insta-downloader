@@ -8,7 +8,7 @@ chrome.runtime.onMessage.addListener((message, _, sendResponse) => {
 			{
 				url: imageUrl,
 				filename: filename,
-				saveAs: true,
+				saveAs: false,
 			},
 			(downloadId) => {
 				if (chrome.runtime.lastError) {
