@@ -16,9 +16,9 @@
 
 		const baseStyles = {
 			position: "absolute",
-			top: "10px",
-			right: "10px",
-			backgroundColor: "rgba(0, 0, 0, 0.5)",
+			top: "12px",
+			right: "12px",
+			backgroundColor: "rgba(0, 0, 0, 0.6)",
 			color: "white",
 			borderRadius: "50%",
 			width: "30px",
@@ -40,7 +40,7 @@
 		});
 
 		container.addEventListener("mouseleave", () => {
-			downloadBtn.style.opacity = "0";
+			downloadBtn.style.opacity = "0.6";
 		});
 
 		downloadBtn.addEventListener("click", (e) => {
